@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My shopping cart</title>
+    <link rel="stylesheet" type="text/css" href="css/cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    
+</head>
+<body>
+    <header>
+        <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+        <a href="#" class="logo">Outerity<span>.</span></a>
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="#about">about</a>
+            <a href="shop.html">shop</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="cart.html" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-user"></a>
+        </div>
+
+    </header>
+    <div class="container">
+        <h1>Shopping Cart</h1>
+        <div class="cart">
+            <div class="products">
+                <div class="product">
+                    <img src="images/product1.jpg">
+                    <div class="product-info">
+                        <h3 class="product-name">Green Shirts</h3>
+                        <h4 class="product-price">100.000vnđ</h4>
+                        <h4 class="product-offer">Sale: 50%</h4>
+                        <p class="product-quantity">Qnt: <input value="1" name="">
+                        <p class="product-remove">
+                            <i class="fa fa-trash" aria-hidden="true"></i>
+                            <span class="remove">Remove</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img src="images/prd8.jpg">
+                    <div class="product-info">
+                        <h3 class="product-name">Black Shirts</h3>
+                        <h4 class="product-price">200.000vnđ</h4>
+                        <h4 class="product-offer">Sale: 40%</h4>
+                        <p class="product-quantity">Qnt: <input value="1" name="">
+                        <p class="product-remove">
+                            <i class="fa fa-trash" aria-hidden="true"></i>
+                            <span class="remove">Remove</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cart-total">
+                <p>
+                    <span>Total Price</span>
+                    <span>300.000vnđ</span>
+                </p>
+                <p>
+                    <span>Number of Items</span>
+                    <span>2</span>
+                </p>
+                <p>
+                    <span>You Save</span>
+                    <span>75.000vnđ</span>
+                </p>
+                <a href="login.html">Proceed to Checkout</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
